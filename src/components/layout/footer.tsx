@@ -99,7 +99,7 @@ export default function Footer() {
                   <div>
                     <div className="text-slate-400 text-sm">Email</div>
                     <div className="text-white font-medium">
-                      info@Excelerate.com
+                      excelerate.financedu@gmail.com
                     </div>
                   </div>
                 </div>
