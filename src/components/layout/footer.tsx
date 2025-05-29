@@ -1,12 +1,5 @@
 import { Button } from '@/components/ui/button'
-import {
-  ExternalLink,
-  Mail,
-  Phone,
-  Instagram,
-  Twitter,
-  Linkedin,
-} from 'lucide-react'
+import { ExternalLink, Mail, Instagram, Twitter, Linkedin } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -107,18 +100,6 @@ export default function Footer() {
                     <div className="text-slate-400 text-sm">Email</div>
                     <div className="text-white font-medium">
                       info@Excelerate.com
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-slate-800 rounded-2xl flex items-center justify-center">
-                    <Phone className="h-5 w-5 text-emerald-400" />
-                  </div>
-                  <div>
-                    <div className="text-slate-400 text-sm">WhatsApp</div>
-                    <div className="text-white font-medium">
-                      +62 888-8888-8888
                     </div>
                   </div>
                 </div>
