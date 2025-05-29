@@ -99,12 +99,10 @@ export default function Navigation() {
                   {item.label}
                 </Link>
               ))}
-              <a
-                href="/all-in-one-financial.xlsx"
-                download={true}
-                className="bg-orange-500 hover:bg-orange-600 text-black font-semibold w-full mt-4 cursor-pointer"
-              >
-                Download Excel
+              <a href="/all-in-one-financial.xlsx" download={true}>
+                <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold w-full mt-4 cursor-pointer">
+                  Download Excel
+                </Button>
               </a>
             </div>
           </div>
