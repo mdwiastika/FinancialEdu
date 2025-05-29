@@ -40,7 +40,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="w-8 h-8 bg-gradient-to-br from-orange-400 to-orange-600 rounded transform rotate-45 mr-3"></div>
-            <h1 className="text-2xl font-bold text-white">FinanceEdu</h1>
+            <h1 className="text-2xl font-bold text-white">Exelerate</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -96,7 +96,7 @@ export default function Navigation() {
                 </a>
               ))}
               <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold w-full mt-4">
-                Get Template
+                Download Excel
               </Button>
             </div>
           </div>
