@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Exelerate - Financial Education',
+  title: 'Excelerate - Financial Education',
   description: 'Edukasi Keuangan untuk Bisnis',
 }
 export default function RootLayout({

@@ -39,9 +39,9 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
               >
-                Exele
+                Excel
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
-                  rate
+                  erate
                 </span>
               </motion.h1>
 

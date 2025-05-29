@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="lg:col-span-5 space-y-6">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl transform rotate-45"></div>
-                <h3 className="text-3xl font-bold text-white">Exelerate</h3>
+                <h3 className="text-3xl font-bold text-white">Excelerate</h3>
               </div>
 
               <p className="text-xl text-slate-300 leading-relaxed max-w-md">
@@ -106,7 +106,7 @@ export default function Footer() {
                   <div>
                     <div className="text-slate-400 text-sm">Email</div>
                     <div className="text-white font-medium">
-                      info@exelerate.com
+                      info@Excelerate.com
                     </div>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-slate-400 text-sm">
-              &copy; 2025 Exelerate. Semua hak cipta dilindungi.
+              &copy; 2025 Excelerate. Semua hak cipta dilindungi.
             </div>
 
             <div className="flex items-center space-x-6 text-sm">
