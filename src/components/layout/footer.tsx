@@ -118,7 +118,7 @@ export default function Footer() {
                   <div>
                     <div className="text-slate-400 text-sm">WhatsApp</div>
                     <div className="text-white font-medium">
-                      +62 853-3865-1231
+                      +62 888-8888-8888
                     </div>
                   </div>
                 </div>
