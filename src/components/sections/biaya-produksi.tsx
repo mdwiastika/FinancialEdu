@@ -100,7 +100,7 @@ export default function BiayaProduksi() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.8, duration: 0.5 }}
                     >
-                      Upah TK
+                      {' Upah TK'}
                     </motion.span>{' '}
                     +
                     <motion.span
@@ -109,7 +109,7 @@ export default function BiayaProduksi() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 1, duration: 0.5 }}
                     >
-                      Overhead
+                      {' Overhead'}
                     </motion.span>
                   </div>
                 </motion.div>
