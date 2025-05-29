@@ -114,18 +114,6 @@ export default function BiayaProduksi() {
                   </div>
                 </motion.div>
               </ScrollAnimation>
-
-              <ScrollAnimation delay={0.5}>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full text-lg">
-                    <ExternalLink className="mr-2 h-5 w-5" />
-                    Buka Template Excel
-                  </Button>
-                </motion.div>
-              </ScrollAnimation>
             </div>
           </div>
 

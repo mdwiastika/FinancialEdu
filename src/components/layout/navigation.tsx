@@ -59,9 +59,13 @@ export default function Navigation() {
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-6 py-2 rounded-full">
+            <a
+              href="/all-in-one-financial.xlsx"
+              download={true}
+              className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-6 py-2 rounded-full cursor-pointer"
+            >
               Download Excel
-            </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -86,18 +90,22 @@ export default function Navigation() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-6 space-y-3 bg-slate-900 border-t border-slate-700">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
                   className="text-slate-300 hover:text-orange-400 block px-3 py-2 font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
-              <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold w-full mt-4">
+              <a
+                href="/all-in-one-financial.xlsx"
+                download={true}
+                className="bg-orange-500 hover:bg-orange-600 text-black font-semibold w-full mt-4 cursor-pointer"
+              >
                 Download Excel
-              </Button>
+              </a>
             </div>
           </div>
         )}

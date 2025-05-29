@@ -243,18 +243,6 @@ export default function LabaKotor() {
                   </motion.div>
                 </motion.div>
               </ScrollAnimation>
-
-              <ScrollAnimation delay={0.6}>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Button className="bg-purple-500 hover:bg-purple-600 text-white font-semibold px-8 py-4 rounded-full text-lg">
-                    <ExternalLink className="mr-2 h-5 w-5" />
-                    Buka Template Excel
-                  </Button>
-                </motion.div>
-              </ScrollAnimation>
             </div>
           </div>
         </div>

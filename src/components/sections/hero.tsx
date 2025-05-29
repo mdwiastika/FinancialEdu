@@ -56,9 +56,11 @@ export default function Hero() {
             <ScrollAnimation delay={0.6}>
               <div className="space-y-4 text-slate-400 max-w-lg">
                 <p>
-                  Platform pembelajaran komprehensif untuk memahami biaya
-                  produksi, HPP, BEP, laba kotor, laba bersih, dan RCR dengan
-                  template Excel siap pakai.
+                  Web kece yang bakal jadi sahabat terbaik kamu buat ngelola
+                  bisnis! Kalau kamu baru mulai usaha dan masih bingung soal
+                  hitung-hitungan bisnis kayak biaya produksi, HPP, BEP, laba
+                  kotor, laba bersih, sampai RCR, tenang aja! Excelerate hadir
+                  buat bantu kamu ngerti semua itu dengan gampang dan praktis.
                 </p>
               </div>
             </ScrollAnimation>
@@ -69,24 +71,28 @@ export default function Hero() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Button
-                    size="lg"
-                    className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full"
-                  >
-                    Mulai Belajar
-                  </Button>
+                  <Link href="#biaya-produksi">
+                    <Button
+                      size="lg"
+                      className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full cursor-pointer"
+                    >
+                      Mulai Belajar
+                    </Button>
+                  </Link>
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-4 rounded-full"
-                  >
-                    Download Template
-                  </Button>
+                  <a href="/all-in-one-financial.xlsx" download={true}>
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-4 rounded-full cursor-pointer"
+                    >
+                      Download Template
+                    </Button>
+                  </a>
                 </motion.div>
               </div>
             </ScrollAnimation>
