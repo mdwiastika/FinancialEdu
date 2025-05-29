@@ -1,7 +1,6 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
-import { ExternalLink, TrendingUp } from 'lucide-react'
+import { TrendingUp } from 'lucide-react'
 import ScrollAnimation from '@/components/animations/scroll-animation'
 import TextAnimation from '@/components/animations/text-animation'
 import StaggeredChildren from '@/components/animations/staggered-children'
