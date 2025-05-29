@@ -30,7 +30,7 @@ export default function Footer() {
               <p className="text-xl text-slate-300 leading-relaxed max-w-md">
                 Platform edukasi keuangan bisnis terlengkap dengan template
                 Excel siap pakai untuk mengoptimalkan performa finansial bisnis
-                Anda.
+                kamu semua.
               </p>
 
               <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full text-lg">
@@ -123,12 +123,13 @@ export default function Footer() {
               <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700">
                 <h5 className="text-white font-semibold mb-3">Newsletter</h5>
                 <p className="text-slate-400 text-sm mb-4">
-                  Dapatkan tips keuangan bisnis terbaru langsung di inbox Anda
+                  Dapatkan tips keuangan bisnis terbaru langsung di inbox kamu
+                  semua
                 </p>
                 <div className="flex space-x-2">
                   <input
                     type="email"
-                    placeholder="Email Anda"
+                    placeholder="Email Kamuu"
                     className="flex-1 bg-slate-700 border border-slate-600 rounded-xl px-4 py-2 text-white placeholder-slate-400 focus:outline-none focus:border-orange-400"
                   />
                   <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-4 py-2 rounded-xl">

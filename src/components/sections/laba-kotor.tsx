@@ -182,13 +182,13 @@ export default function LabaKotor() {
             <div className="space-y-6">
               <ScrollAnimation delay={0.2}>
                 <h3 className="text-2xl font-bold text-purple-400">
-                  Bongkar Rahasia Laba Kotor Anda: Raih Kendali Penuh Keuangan!
+                  Bongkar Rahasia Laba Kotor Kamu: Raih Kendali Penuh Keuangan!
                 </h3>
               </ScrollAnimation>
 
               <ScrollAnimation delay={0.3}>
                 <p className="text-lg text-slate-300 leading-relaxed">
-                  Ingin punya kendali penuh atas keuangan bisnis Anda? Mulailah
+                  Ingin punya kendali penuh atas keuangan bisnis Kamu? Mulailah
                   dengan memahami Laba Kotor! Ini adalah kunci pertama untuk
                   membuka pintu profitabilitas.
                 </p>
@@ -214,9 +214,8 @@ export default function LabaKotor() {
                       Filter Pertama Profitabilitas
                     </motion.div>
                     <p className="text-slate-300">
-                      Laba kotor memberi tahu Anda pendapatan murni yang
-                      dihasilkan dari penjualan, setelah biaya langsung produksi
-                      tertutupi.
+                      Laba kotor memberi tahumu pendapatan murni yang dihasilkan
+                      dari penjualan, setelah biaya langsung produksi tertutupi.
                     </p>
                   </div>
                 </motion.div>

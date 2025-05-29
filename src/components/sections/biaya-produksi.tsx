@@ -49,7 +49,7 @@ export default function BiayaProduksi() {
               <ScrollAnimation delay={0.2}>
                 <h3 className="text-2xl font-bold text-slate-800">
                   Ungkap Rahasia Biaya Produksi: Ambil Alih Kendali Keuangan
-                  Bisnis Anda!
+                  Bisnis Kamu!
                 </h3>
               </ScrollAnimation>
 
@@ -58,7 +58,7 @@ export default function BiayaProduksi() {
                   Mau punya pegangan kuat atas keuangan bisnis? Mulailah dengan
                   memahami Biaya Produksi! Ini adalah elemen penting yang
                   menunjukkan total pengeluaran untuk menciptakan produk atau
-                  layanan Anda.
+                  layanan Kamu.
                 </p>
               </ScrollAnimation>
 
