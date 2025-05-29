@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 relative overflow-hidden">
+    <footer className="bg-slate-900 relative overflow-hidden border-t-2 border-slate-800">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,_#f97316_1px,_transparent_1px),_linear-gradient(-45deg,_#f97316_1px,_transparent_1px)] bg-[length:20px_20px]"></div>
@@ -24,19 +24,24 @@ export default function Footer() {
             <div className="lg:col-span-5 space-y-6">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl transform rotate-45"></div>
-                <h3 className="text-3xl font-bold text-white">FinanceEdu</h3>
+                <h3 className="text-3xl font-bold text-white">Exelerate</h3>
               </div>
 
               <p className="text-xl text-slate-300 leading-relaxed max-w-md">
-                Platform edukasi keuangan bisnis terlengkap dengan template
-                Excel siap pakai untuk mengoptimalkan performa finansial bisnis
-                kamu semua.
+                Gak cuma kasih rumus dan penjelasan yang nggak bikin pusing,
+                Excelerate juga punya fitur hitung otomatis yang bikin kamu gak
+                perlu ribet ngitung manual.
               </p>
-
-              <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full text-lg">
-                <ExternalLink className="mr-2 h-5 w-5" />
-                Download Semua Template
-              </Button>
+              <a
+                href="/all-in-one-financial.xlsx"
+                download={true}
+                className="inline-block mt-4"
+              >
+                <Button className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full text-lg">
+                  <ExternalLink className="mr-2 h-5 w-5" />
+                  Download Semua Template
+                </Button>
+              </a>
 
               {/* Social Media */}
               <div className="flex space-x-4">
@@ -101,7 +106,7 @@ export default function Footer() {
                   <div>
                     <div className="text-slate-400 text-sm">Email</div>
                     <div className="text-white font-medium">
-                      info@financeedu.com
+                      info@exelerate.com
                     </div>
                   </div>
                 </div>
@@ -113,7 +118,7 @@ export default function Footer() {
                   <div>
                     <div className="text-slate-400 text-sm">WhatsApp</div>
                     <div className="text-white font-medium">
-                      +62 812-3456-7890
+                      +62 853-3865-1231
                     </div>
                   </div>
                 </div>
@@ -145,7 +150,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-slate-400 text-sm">
-              &copy; 2024 FinanceEdu. Semua hak cipta dilindungi.
+              &copy; 2025 Exelerate. Semua hak cipta dilindungi.
             </div>
 
             <div className="flex items-center space-x-6 text-sm">
