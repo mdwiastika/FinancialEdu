@@ -71,7 +71,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Link href="#biaya-produksi">
+                  <Link href="#biaya-produksi" scroll={false}>
                     <Button
                       size="lg"
                       className="bg-orange-500 hover:bg-orange-600 text-black font-semibold px-8 py-4 rounded-full cursor-pointer"
@@ -189,7 +189,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll Indicator */}
-        <Link href="#biaya-produksi">
+        <Link href="#biaya-produksi" scroll={false}>
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
             <motion.div
               className="bg-orange-500 rounded-full p-4 cursor-pointer"

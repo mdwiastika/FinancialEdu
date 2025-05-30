@@ -180,6 +180,7 @@ export default function Navigation() {
                 >
                   <Link
                     href={item.href}
+                    scroll={false}
                     className={`hover:text-orange-400 font-medium transition-colors duration-300 relative group ${
                       item.href === current
                         ? 'text-orange-400'
@@ -274,6 +275,7 @@ export default function Navigation() {
                   >
                     <Link
                       href={item.href}
+                      scroll={false}
                       className={`hover:text-orange-400 block px-3 py-2 font-medium ${
                         current === item.href
                           ? 'text-orange-400'
