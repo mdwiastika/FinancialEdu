@@ -4,16 +4,13 @@ import { ExternalLink, Mail, Instagram, Twitter, Linkedin } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="bg-slate-900 relative overflow-hidden border-t-2 border-slate-800">
-      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,_#f97316_1px,_transparent_1px),_linear-gradient(-45deg,_#f97316_1px,_transparent_1px)] bg-[length:20px_20px]"></div>
       </div>
 
       <div className="container mx-auto px-6 relative">
-        {/* Main Footer Content */}
         <div className="py-16">
           <div className="grid lg:grid-cols-12 gap-12">
-            {/* Brand Section */}
             <div className="lg:col-span-5 space-y-6">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl transform rotate-45"></div>

@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-slate-900 relative overflow-hidden pt-20">
       {/* Background Elements */}
-      <BackgroundParticles color="#f97316" count={30} />
+      <BackgroundParticles color="#f97316" count={40} className="z-auto" />
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
